@@ -72,3 +72,20 @@ Questions, war stories, or you want to run this on your own fleet:
 ## License
 
 MIT. Take the page, fork it, run your own open call with it.
+
+---
+
+<!--ecosystem-map:start-->
+
+## 🧩 One piece of a working system
+
+This repository is one piece lifted out of a live operation: one non-technical founder, an AI
+cofounder, and a fleet of machines that reach consensus with each other and wake the human only
+for money or the irreversible. It was extracted after it survived production, not written as a
+demo — and it runs on its own: nothing here phones home to the rest.
+
+**See how the whole thing fits together → [SYSTEM.md](https://github.com/Palo-Alto-AI-Research-Lab/Palo-Alto-AI-Research-Lab/blob/main/SYSTEM.md)**
+
+Its closest neighbours in the **in public** layer: [`the-journey`](https://github.com/Palo-Alto-AI-Research-Lab/the-journey) · [`clawrush`](https://github.com/Palo-Alto-AI-Research-Lab/clawrush) · [`dashboards`](https://github.com/Palo-Alto-AI-Research-Lab/dashboards)
+
+<!--ecosystem-map:end-->
