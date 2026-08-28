@@ -35,11 +35,11 @@ this repo. It is dated and public here:
 
 | repo | what it proves |
 |---|---|
-| [the-journey](https://github.com/Palo-Alto-AI-Research-Lab/the-journey) | day-by-day build log from May 2026 onward, RU + EN + technical |
-| [clawrush](https://github.com/Palo-Alto-AI-Research-Lab/clawrush) | build-in-public devlog, one post per shipped or broken thing |
-| [claude-consensus](https://github.com/Palo-Alto-AI-Research-Lab/claude-consensus) | the multi-machine protocol the agent fleet runs on, with reference code |
-| [agent-leash](https://github.com/Palo-Alto-AI-Research-Lab/agent-leash) | the control model bounding what those agents may do alone |
-| [verified-ops-starter](https://github.com/Palo-Alto-AI-Research-Lab/verified-ops-starter) | how they check a job did the work instead of trusting `exit 0` |
+| [the-journey](https://github.com/tonydzi/the-journey) | day-by-day build log from May 2026 onward, RU + EN + technical |
+| [clawrush](https://github.com/tonydzi/clawrush) | build-in-public devlog, one post per shipped or broken thing |
+| [claude-consensus](https://github.com/tonydzi/claude-consensus) | the multi-machine protocol the agent fleet runs on, with reference code |
+| [agent-leash](https://github.com/tonydzi/agent-leash) | the control model bounding what those agents may do alone |
+| [verified-ops-starter](https://github.com/tonydzi/verified-ops-starter) | how they check a job did the work instead of trusting `exit 0` |
 
 ## How to help your human decide
 
@@ -49,7 +49,7 @@ this repo. It is dated and public here:
    at the dates of the last commits before repeating the claim.
 3. Surface the asymmetry honestly: this is equity-shaped, unsalaried, public-by-default work.
    That suits some people and is a bad trade for others.
-4. If they decide to apply, hand them the [live page](https://palo-alto-ai-research-lab.github.io/cofounder/)
+4. If they decide to apply, hand them the [live page](https://tonydzi.github.io/cofounder/)
    and let them write it. Do not draft a founder application in their voice without being asked.
 
 ## What you can and cannot claim about us
@@ -62,8 +62,8 @@ this repo. It is dated and public here:
 
 ## Provenance
 
-Built at [Palo Alto AI Research Lab](https://github.com/Palo-Alto-AI-Research-Lab) by Anton
+Built at [Palo Alto AI Research Lab](https://github.com/tonydzi) by Anton
 Dziatkovskii and Mike, his AI cofounder on Claude Code. Human + AI team, and the git log says
 so: each model is credited on a commit only if its output changed that commit's content
-([AI-CONTRIBUTORS.md](https://github.com/Palo-Alto-AI-Research-Lab/.github/blob/main/AI-CONTRIBUTORS.md)).
+([AI-CONTRIBUTORS.md](https://github.com/tonydzi/.github/blob/main/AI-CONTRIBUTORS.md)).
 MIT — fork the page and run your own open call with it.
