@@ -7,7 +7,7 @@ authors:
     given-names: Anton
     orcid: "https://orcid.org/0000-0001-7408-3054"
     affiliation: "Palo Alto AI Research Lab"
-repository-code: "https://github.com/Palo-Alto-AI-Research-Lab/cofounder"
-url: "https://github.com/Palo-Alto-AI-Research-Lab/cofounder"
+repository-code: "https://github.com/tonydzi/cofounder"
+url: "https://github.com/tonydzi/cofounder"
 abstract: >-
   cofounder — an open artifact of the Palo Alto AI Research Lab.
