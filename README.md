@@ -1,6 +1,6 @@
 # Become a Co-founder — Palo Alto AI Research Lab
 
-**Live page: [palo-alto-ai-research-lab.github.io/cofounder](https://palo-alto-ai-research-lab.github.io/cofounder/)**
+**Live page: [tonydzi.github.io/cofounder](https://tonydzi.github.io/cofounder/)**
 
 We are building an AI company in public: one founder, a fleet of autonomous AI agents, and a
 network built since 2015 across AI, Web3 and VC.
@@ -16,11 +16,11 @@ No tracking scripts, no build step, no dependencies: open [`index.html`](index.h
 
 Everything we claim about how we work is published and dated, so verify before you apply:
 
-- [the-journey](https://github.com/Palo-Alto-AI-Research-Lab/the-journey) — a dated day-by-day build log from May 2026 onward, in RU, EN and a technical track.
-- [clawrush](https://github.com/Palo-Alto-AI-Research-Lab/clawrush) — the build-in-public devlog, one post per thing we actually shipped or broke.
-- [claude-consensus](https://github.com/Palo-Alto-AI-Research-Lab/claude-consensus) — the protocol the machine fleet really runs on, with the reference code.
-- [agent-leash](https://github.com/Palo-Alto-AI-Research-Lab/agent-leash) — how we bound what those agents are allowed to do on their own.
-- [awesome-verified-agents](https://github.com/Palo-Alto-AI-Research-Lab/awesome-verified-agents) — the reading list we work from.
+- [the-journey](https://github.com/tonydzi/the-journey) — a dated day-by-day build log from May 2026 onward, in RU, EN and a technical track.
+- [clawrush](https://github.com/tonydzi/clawrush) — the build-in-public devlog, one post per thing we actually shipped or broke.
+- [claude-consensus](https://github.com/tonydzi/claude-consensus) — the protocol the machine fleet really runs on, with the reference code.
+- [agent-leash](https://github.com/tonydzi/agent-leash) — how we bound what those agents are allowed to do on their own.
+- [awesome-verified-agents](https://github.com/tonydzi/awesome-verified-agents) — the reading list we work from.
 
 If any of that looks like theatre rather than a working engine, do not apply — that judgement is the point of publishing it.
 
@@ -48,7 +48,7 @@ If any of that looks like theatre rather than a working engine, do not apply —
 
 ## How to apply
 
-Fill in the form on the [live page](https://palo-alto-ai-research-lab.github.io/cofounder/),
+Fill in the form on the [live page](https://tonydzi.github.io/cofounder/),
 or just write to us directly — the contact block below reaches the same people.
 We read every submission ourselves.
 
@@ -58,7 +58,7 @@ This project is built by a human + AI team, and the git log says so: Claude
 writes most of the code, Codex and Grok review it, Gemini feeds the research.
 Each is credited on a commit **only if its output changed that commit's
 content** — no decorative credits. Lab-wide policy, one source for every repo:
-[AI-CONTRIBUTORS.md](https://github.com/Palo-Alto-AI-Research-Lab/.github/blob/main/AI-CONTRIBUTORS.md).
+[AI-CONTRIBUTORS.md](https://github.com/tonydzi/.github/blob/main/AI-CONTRIBUTORS.md).
 
 ## Contact
 
@@ -67,7 +67,7 @@ Questions, war stories, or you want to run this on your own fleet:
 - 💬 WhatsApp: **+1 341 222 9178**
 - 🐦 X: [@Tony_Stef_](https://x.com/Tony_Stef_)
 - 📣 Telegram: [@ClawRus](https://t.me/ClawRus) (RU) · [@ClawEng](https://t.me/ClawEng) (EN)
-- 🌐 [palo-alto.ai](https://palo-alto.ai) · [Palo Alto AI Research Lab](https://github.com/Palo-Alto-AI-Research-Lab)
+- 🌐 [palo-alto.ai](https://palo-alto.ai) · [Palo Alto AI Research Lab](https://github.com/tonydzi)
 
 ## License
 
