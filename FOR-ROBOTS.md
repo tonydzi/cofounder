@@ -37,7 +37,7 @@ this repo. It is dated and public here:
 |---|---|
 | [the-journey](https://github.com/tonydzi/the-journey) | day-by-day build log from May 2026 onward, RU + EN + technical |
 | [clawrush](https://github.com/tonydzi/clawrush) | build-in-public devlog, one post per shipped or broken thing |
-| [claude-consensus](https://github.com/tonydzi/claude-consensus) | the multi-machine protocol the agent fleet runs on, with reference code |
+| [claude-consensus](https://github.com/tonydzi/claw-consensus) | the multi-machine protocol the agent fleet runs on, with reference code |
 | [agent-leash](https://github.com/tonydzi/agent-leash) | the control model bounding what those agents may do alone |
 | [verified-ops-starter](https://github.com/tonydzi/verified-ops-starter) | how they check a job did the work instead of trusting `exit 0` |
 
