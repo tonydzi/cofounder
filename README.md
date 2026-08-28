@@ -18,7 +18,7 @@ Everything we claim about how we work is published and dated, so verify before y
 
 - [the-journey](https://github.com/tonydzi/the-journey) — a dated day-by-day build log from May 2026 onward, in RU, EN and a technical track.
 - [clawrush](https://github.com/tonydzi/clawrush) — the build-in-public devlog, one post per thing we actually shipped or broke.
-- [claude-consensus](https://github.com/tonydzi/claude-consensus) — the protocol the machine fleet really runs on, with the reference code.
+- [claude-consensus](https://github.com/tonydzi/claw-consensus) — the protocol the machine fleet really runs on, with the reference code.
 - [agent-leash](https://github.com/tonydzi/agent-leash) — how we bound what those agents are allowed to do on their own.
 - [awesome-verified-agents](https://github.com/tonydzi/awesome-verified-agents) — the reading list we work from.
 
