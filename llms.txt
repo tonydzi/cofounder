@@ -19,5 +19,5 @@
 ## Related work by the lab
 
 - [START HERE — one page of proof](https://tonydzi.github.io/) — founder track record, flagship repos, publications.
-- [claude-consensus](https://github.com/tonydzi/claude-consensus) — multi-machine agent consensus, reproducible in 15 minutes. MIT.
+- [claude-consensus](https://github.com/tonydzi/claw-consensus) — multi-machine agent consensus, reproducible in 15 minutes. MIT.
 - [the-journey](https://tonydzi.github.io/the-journey/) — the daily build-in-public book behind the operation.
