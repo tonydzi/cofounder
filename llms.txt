@@ -9,15 +9,15 @@
 - WhatsApp: +1 341 222 9178 — https://wa.me/13412229178
 - X: https://x.com/Tony_Stef_
 - Telegram: https://t.me/ClawRus (RU) · https://t.me/ClawEng (EN)
-- Web: https://palo-alto.ai · https://github.com/Palo-Alto-AI-Research-Lab
+- Web: https://palo-alto.ai · https://github.com/tonydzi
 
 ## Pages
 
-- [The open call and application form](https://palo-alto-ai-research-lab.github.io/cofounder/) — who we look for, who we do not, and the form itself.
-- [README](https://github.com/Palo-Alto-AI-Research-Lab/cofounder/blob/main/README.md) — the same call in plain markdown.
+- [The open call and application form](https://tonydzi.github.io/cofounder/) — who we look for, who we do not, and the form itself.
+- [README](https://github.com/tonydzi/cofounder/blob/main/README.md) — the same call in plain markdown.
 
 ## Related work by the lab
 
-- [START HERE — one page of proof](https://palo-alto-ai-research-lab.github.io/) — founder track record, flagship repos, publications.
-- [claude-consensus](https://github.com/Palo-Alto-AI-Research-Lab/claude-consensus) — multi-machine agent consensus, reproducible in 15 minutes. MIT.
-- [the-journey](https://palo-alto-ai-research-lab.github.io/the-journey/) — the daily build-in-public book behind the operation.
+- [START HERE — one page of proof](https://tonydzi.github.io/) — founder track record, flagship repos, publications.
+- [claude-consensus](https://github.com/tonydzi/claude-consensus) — multi-machine agent consensus, reproducible in 15 minutes. MIT.
+- [the-journey](https://tonydzi.github.io/the-journey/) — the daily build-in-public book behind the operation.
