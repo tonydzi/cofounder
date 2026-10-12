@@ -2,7 +2,7 @@
 
 **Live page: [tonydzi.github.io/cofounder](https://tonydzi.github.io/cofounder/)**
 
-We are building an AI company in public: one founder, a fleet of autonomous AI agents, and a
+We are building an AI company in public: one operating lead, a fleet of autonomous AI agents, and a
 network built since 2015 across AI, Web3 and VC.
 The engine runs daily, and you can check that rather than take our word for it — see
 [Don't take our word for it](#dont-take-our-word-for-it) below.
@@ -103,7 +103,7 @@ One click and an agent reads the repo, pulls out the patterns and helps you appl
 <summary>Copy the prompt (works in any agent: Gemini, Grok, a local model, your own CLI)</summary>
 
 ```text
-Read this repo: https://github.com/tonydzi/cofounder (“cofounder” - Become a Co-founder — open call by Palo Alto AI Research Lab: one founder, a fleet of autonomous AI agents, building in public). Work out what problem it actually solves, pull out the reusable patterns and help me apply them to my own setup. Start by asking what I am working on.
+Read this repo: https://github.com/tonydzi/cofounder (“cofounder” - Become a Co-founder — open call by Palo Alto AI Research Lab: one operating lead, a fleet of autonomous AI agents, building in public). Work out what problem it actually solves, pull out the reusable patterns and help me apply them to my own setup. Start by asking what I am working on.
 ```
 
 </details>
