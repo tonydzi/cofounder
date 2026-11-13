@@ -1,4 +1,57 @@
-# Become a Co-founder — Palo Alto AI Research Lab
+# cofounder
+
+The open call and application page for people who want to become a co-founder of Palo Alto AI Research Lab, an AI company built in public.
+
+**Who it's for:** builders with something we lack (capital, a network, distribution, deep tech or a market) who want to own a piece, not rent a title.
+**What you get:** one self-contained web page (`index.html`) with who we look for and a short application form. No tracking, no build step.
+
+## Quick start
+1. Open the live page: https://tonydzi.github.io/cofounder/ (or download this repo and open `index.html` in a browser).
+2. Read "This is for you if" and "This is not for you if" below. Check our public proof first (see "Don't take our word for it").
+3. Fill in the form and send it, or write to us on WhatsApp (+1 341 222 9178).
+
+**Done when:** after you press send, the page hides the form and shows a thank-you message.
+
+> Want an AI agent to do it for you? Paste this to Claude Code / Codex / Cursor:
+> "Read the 'For AI agents' section of https://github.com/tonydzi/cofounder and set it up for me."
+
+## For AI agents
+
+### Preconditions
+- Nothing to install. The page is plain HTML, CSS and JavaScript with no dependencies and no build step.
+- Any modern browser. Optional: Node.js to syntax-check the page script.
+- Accounts or keys: none.
+- Ask the human before anything else: do they want to apply, or fork the page for their own open call? Applying means sending their personal details to us, and only they can decide that.
+
+### Use
+To read or fork the page locally:
+```bash
+git clone https://github.com/tonydzi/cofounder
+cd cofounder
+```
+Then open `index.html` in a browser. To run your own open call, edit the `CONFIG` block at the top of the script in `index.html` (`webhookUrl`, `fallbackTelegram`, `fallbackWhatsApp`) and the page text. Replace our values with the human's own; the shipped values point to our contacts.
+
+### Configure
+Only if forking: the `CONFIG` object in `index.html` decides where submissions go. If `webhookUrl` is empty or the request fails, the page opens a pre-filled Telegram message to `fallbackTelegram`. All values come from the human.
+
+### Verify
+The page is one file with one inline script. Check that the script parses and the form exists:
+```bash
+python -c "import re;t=open('index.html',encoding='utf-8').read();open('/tmp/cf.js','w',encoding='utf-8').write(re.search(r'<script>(.*?)</script>',t,re.S).group(1))"
+node --check /tmp/cf.js
+grep -c 'id="capForm"' index.html
+```
+Expected: `node --check` prints nothing and exits 0; `grep -c` prints `1`. (Run here: passed.)
+
+### Uninstall / rollback
+Delete the cloned folder. Nothing outside it was changed. A submitted application cannot be recalled by the page; ask the humans on the contact list.
+
+### Rules for the agent
+- Never submit the application form on the human's behalf, and never fill it with data the human did not give you. Submitting sends personal data to a webhook run by the lab.
+- If you fork this page, do not leave our webhook or contact handles in place: submissions would reach us instead of the new owner.
+- Do not claim the lab's results as your own; link to the public proof in the repo list instead.
+
+## Details
 
 **Live page: [tonydzi.github.io/cofounder](https://tonydzi.github.io/cofounder/)**
 
