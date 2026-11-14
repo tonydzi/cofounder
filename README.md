@@ -10,7 +10,7 @@ The open call and application page for people who want to become a co-founder of
 2. Read "This is for you if" and "This is not for you if" below. Check our public proof first (see "Don't take our word for it").
 3. Fill in the form and send it, or write to us on WhatsApp (+1 341 222 9178).
 
-**Done when:** after you press send, the page hides the form and shows a thank-you message.
+**Done when:** after you press send, the page hides the form and shows a thank-you message. Know that this message appears even if delivery failed: the form first tries our server, and if that fails it opens a pre-filled Telegram message in a new tab, where you must press send yourself. Name, email, Telegram handle and the two long answers are required.
 
 > Want an AI agent to do it for you? Paste this to Claude Code / Codex / Cursor:
 > "Read the 'For AI agents' section of https://github.com/tonydzi/cofounder and set it up for me."
@@ -37,11 +37,12 @@ Only if forking: the `CONFIG` object in `index.html` decides where submissions g
 ### Verify
 The page is one file with one inline script. Check that the script parses and the form exists:
 ```bash
-python -c "import re;t=open('index.html',encoding='utf-8').read();open('/tmp/cf.js','w',encoding='utf-8').write(re.search(r'<script>(.*?)</script>',t,re.S).group(1))"
-node --check /tmp/cf.js
-grep -c 'id="capForm"' index.html
+python -c "import re,pathlib;t=pathlib.Path('index.html').read_text(encoding='utf-8');pathlib.Path('cf_check.js').write_text(re.search(r'<script>(.*?)</script>',t,re.S).group(1),encoding='utf-8');print('capForm present:', 'id=\"capForm\"' in t)"
+node --check cf_check.js
+echo $?
 ```
-Expected: `node --check` prints nothing and exits 0; `grep -c` prints `1`. (Run here: passed.)
+On PowerShell use `$LASTEXITCODE` instead of `echo $?`. This writes `cf_check.js` into the folder; delete it afterwards.
+Expected: the first command prints `capForm present: True`; `node --check` prints nothing and exits `0`. (Run here: passed.) This only proves the script parses and the form exists. It does not prove the form delivers anything; for that, open the page and look at the browser console after a test submit to a webhook you own.
 
 ### Uninstall / rollback
 Delete the cloned folder. Nothing outside it was changed. A submitted application cannot be recalled by the page; ask the humans on the contact list.
